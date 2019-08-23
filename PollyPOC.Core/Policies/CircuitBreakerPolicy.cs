@@ -21,7 +21,7 @@ namespace PollyPOC.Core.Policies
         */
 
             return Policy.Handle<Exception>()
-                .CircuitBreaker(2, TimeSpan.FromMinutes(1),
+                .CircuitBreaker(2, TimeSpan.FromSeconds(15),
                     (e, t) => { Console.WriteLine("Circuit has been broken.", Color.Red); },
                     () => { Console.WriteLine("Circuit has been reset.", Color.Yellow); });
         }
