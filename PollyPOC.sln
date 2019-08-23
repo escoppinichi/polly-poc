@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PollyPOC.Web", "PollyPOC.Web.csproj", "{F958F822-591B-4B93-8B3E-9E84E2074E24}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PollyPOC.Web", "PollyPOC.Web\PollyPOC.Web.csproj", "{F958F822-591B-4B93-8B3E-9E84E2074E24}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollyPOC.Core", "..\PollyPOC.Core\PollyPOC.Core.csproj", "{93A15EA4-C418-40EC-AC55-FB8A790F806E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollyPOC.Core", "PollyPOC.Core\PollyPOC.Core.csproj", "{93A15EA4-C418-40EC-AC55-FB8A790F806E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollyPOC.Console", "..\PollyPOC.Console\PollyPOC.Console.csproj", "{19ECA093-951D-4570-9E33-7CA934C353B7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PollyPOC.Console", "PollyPOC.Console\PollyPOC.Console.csproj", "{19ECA093-951D-4570-9E33-7CA934C353B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
